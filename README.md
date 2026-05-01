@@ -15,7 +15,6 @@ A PyTorch-based training and evaluation pipeline for traffic sign classification
 - [Project Structure](#project-structure)
 - [Model Architecture](#model-architecture)
 - [Calibration](#calibration)
-- [Results](#results)
 - [Citation](#citation)
 
 ---
@@ -133,17 +132,6 @@ After training, the notebook measures and corrects **confidence calibration**:
 Calibration is evaluated separately on:
 - The **real** test split (`Real_Test/ChallengeFree`)
 - The **synthetic** test split (`Unreal_Test`) using the temperature learned from the real split
-
----
-
-## Results
-
-| Split | ECE (before) | ECE (after) |
-|---|---|---|
-| Real Test | — | — |
-| Unreal Test | — | — |
-
-*(Fill in after running the notebook.)*
 
 ---
 
