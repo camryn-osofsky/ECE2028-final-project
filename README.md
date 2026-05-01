@@ -1,4 +1,4 @@
-# CURE-TSR: Traffic Sign Recognition with CNN
+# Exploring Unreliability in AI with CURE-TSR
 
 A PyTorch-based training and evaluation pipeline for traffic sign classification on the [CURE-TSR dataset](https://github.com/olivesgatech/CURE-TSR), with calibration via temperature scaling.
 
